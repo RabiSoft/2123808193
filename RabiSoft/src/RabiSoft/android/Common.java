@@ -40,6 +40,11 @@ public class Common {
 
     public static final String m_keyExtra_Mode = "mode";
 
+	public static final String m_actionPickMode = "RabiSoft.intent.action.PICK_MODE";
+	public static final String m_actionPickSlot = "RabiSoft.intent.action.PICK_SLOT";
+
+    public static final String m_keyExtra_Name = "name";
+	
     public static enum SensorSleep {
 		sleep, wake
 	}
