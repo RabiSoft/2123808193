@@ -32,20 +32,22 @@ public class Common {
 	public static final String m_keyExtra_Longitude = "longitude";
 	public static final String m_keyExtra_Altitude = "altitude";
 
-	public static final String m_actionPickIpAddress = "RabiSoft.intent.action.PICK_IP_ADDRESS";
-	
-	public static final String m_keyExtra_IpAddress = "ip_address";
-
     public static final String m_actionChangeMode = "RabiSoft.intent.action.MODE_CHANGE";
 
     public static final String m_keyExtra_Mode = "mode";
 
-	public static final String m_actionPickMode = "RabiSoft.intent.action.PICK_MODE";
-	public static final String m_actionPickSlot = "RabiSoft.intent.action.PICK_SLOT";
+    public static final String m_actionPickMode = "RabiSoft.intent.action.PICK_MODE";
+    public static final String m_actionPickSlot = "RabiSoft.intent.action.PICK_SLOT";
 
     public static final String m_keyExtra_Name = "name";
-	
-    public static enum SensorSleep {
+
+	public static final String m_actionPickPassword = "RabiSoft.intent.action.PICK_PASSWORD";
+
+	public static final String m_keyExtra_Password = "password";
+
+	public static final String m_actionEditText = "RabiSoft.intent.action.EDIT_TEXT";
+
+	public static enum SensorSleep {
 		sleep, wake
 	}
 
